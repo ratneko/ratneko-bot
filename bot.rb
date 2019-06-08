@@ -34,4 +34,5 @@ client.on :message do |data|
   end
 end
 
+Process.daemon
 client.start!
